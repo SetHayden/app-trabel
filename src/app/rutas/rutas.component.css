@@ -1,0 +1,71 @@
+.main{
+    position: fixed;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.205);
+    top: 40px;
+    left: 7%;
+    height: 85%;
+    width: 85%;
+    padding: 20px;
+}
+
+.head{
+    display: flex;
+}
+
+.title{
+    position: relative;
+    top: 2px;
+    left: 10px;
+    font-weight: 600;
+}
+
+hr{
+    margin-top: -8px;
+}
+
+.datos-ruta{
+    display: flex;
+}
+
+.select-ruta{
+    color: rgba(0, 0, 0, 0.375);
+}
+
+.btn{
+    position: relative;
+    /* height: 30px; */
+    top: 10px;
+    left: 10px;
+    /* width: 20%; */
+}
+
+.filtro{
+    margin-top: 70px;
+    display: flex;
+}
+
+.filtro label{
+    position: relative;
+    top: 5px;
+}
+
+.filtro input{
+    position: relative;
+    left: 1%;
+    width: 20%;
+}
+
+.table{
+    position: relative;
+    top: 10px;
+}
+
+.table thead tr{
+    position: relative;
+    justify-content: center;
+}
+
+.icon-table{
+    position: relative;
+    top: 15px;
+}
